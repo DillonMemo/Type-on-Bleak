@@ -1,0 +1,29 @@
+{% if site.theme_settings.footer_text %}
+<footer class="site-footer">
+    <p class="text">{{ site.theme_settings.footer_text }}</p>
+            <div class="footer-icons">
+                <ul>
+                <!-- Social icons from Font Awesome, if enabled -->
+                {% include icons.html %}
+                </ul>
+            </div>
+</footer>
+
+<aside role="presentation" id="preload" aria-hidden="true">
+    <div class="throbber">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+</aside>
+
+<!-- 맨 위로 버튼 -->
+<aside id="backToTop">
+    <a role="button" id="backToTopButton" href="#">
+        <i class="icon"></i>
+        <span class="text">page<br><b>top</b></span>
+    </a>
+</aside>
+{% endif %}
+
+

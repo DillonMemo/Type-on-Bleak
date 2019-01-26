@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+<div class="home">
+  {% if site.theme_settings.header_text %}
+  <!-- Modified : 2019. 01. 23 -->
+  <!-- <div id="main" class="call-out"
+  style="background-image: url('{{ site.theme_settings.header_feature_image | relative_url }}')"> -->
+  <div id="main" class="call-out" style="border-bottom: 1px solid rgba(0, 0, 0, 0.1);"> 
+    <h1> {{ site.theme_settings.header_text }} </h1>
+    <h4> {{ site.theme_settings.sub_header_text }} </h4>
+  </div>
+  {% endif %}
+
+  {% include blog.html %}
+    
+</div>
