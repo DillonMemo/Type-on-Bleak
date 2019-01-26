@@ -1,5 +1,5 @@
 # SITE CONFIGURATION
-baseurl: ""
+baseurl: "/Type-on-Bleak"
 url: "https://dillonmemo.github.io"
 title: Type-on-Bleak # site's title
 description: "Description" # used by search engines
