@@ -2,21 +2,21 @@
 
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)]()
 
-![Default Type Theme blog](/Type-on-Bleak.png)
+![Default Type on Bleak blog](/Type-on-Bleak.png)
 
 A free and open-source [Jekyll](https://jekyllrb.com) theme. Great for blogs and easy to customize.
 
-[Demo](https://dillonmemo.github.io/type-on-bleak/)
+[Demo](https://dillonmemo.github.io/Type-on-Bleak/)
 
 ## Usage
 
-1. Fork and clone the [Type Theme repo](https://github.com/dillonmemo/type-on-Bleak): `git clone https://github.com/dillonmemo/type-on-Bleak`
+1. Fork and clone the [Type on Bleak repo](https://github.com/dillonmemo/type-on-Bleak): `git clone https://github.com/dillonmemo/type-on-Bleak`
 2. [Install Jekyll](https://jekyllrb.com/docs/installation/): `gem install jekyll`
 3. Install the theme's dependencies: `bundle install`
 4. Customize the theme (see below)
 5. Run the Jekyll server: `jekyll serve`
 
-## Customizing Type Theme
+## Customizing Type on Bleak
 
 Open `_config.yml` in a text editor to change most of the blog's settings.
 
@@ -24,14 +24,14 @@ If a variable in this document is marked as "optional", disable the feature by r
 
 ```yml
 theme:
-  title: Type Theme
+  title: Type on Bleak
   avatar:
   gravatar:
 ```
 
 Notice the avatar variable is left intentionally blank.
 
-Below is a summary of the configuration options in Type Theme.
+Below is a summary of the configuration options in Type on Bleak.
 
 ### Site configuration
 The most common configurations, included here for guidance, are:
@@ -44,7 +44,7 @@ baseurl: ""
 url: "https://username.github.io"
 ```
 
-Jekyll website *with* subpath (like the Type Theme demo page):
+Jekyll website *with* subpath (like the Type on Bleak page):
 
 ```yml
 # SITE CONFIGURATION
@@ -111,9 +111,6 @@ English text used in the theme (such as the "continue reading" label) has been g
 
 ### Colours, typography, padding
 
-![A selection of colours set in Type Theme by modifying the CSS](https://cloud.githubusercontent.com/assets/816965/5142488/130869a6-71d7-11e4-8a38-a69ec1673436.png)
-
-
 | Variable | Example | Description | Optional |
 |--------------|----------------------------|--------------------------------------|--------------------------------------------------------------|
 | google_fonts | "Playfair+Display:400,700\ | PT+Sans:400,700,700italic,400italic" | [Google Fonts](https://www.google.com/fonts) to load for use |
@@ -130,7 +127,7 @@ $font-family-headings: 'Playfair Display', Helvetica, Arial, sans-serif;
 
 Mozilla's [ColorPicker](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Colors/Color_picker_tool) is a helpful tool to get your preferred colours in hexadecimal or RGBA form for use in `_variables.scss`.
 
-## Posts and pages in Type Theme
+## Posts and pages in Type on Bleak
 Please refer to the [Jekyll docs for writing posts](https://jekyllrb.com/docs/posts/). Non-standard features are documented below.
 
 ### Math typesetting
@@ -150,11 +147,9 @@ $$
 $$
 ```
 
-Type Theme makes use for [KaTeX](https://khan.github.io/KaTeX/) for typesetting.
+Type on Bleak makes use for [KaTeX](https://khan.github.io/KaTeX/) for typesetting.
 
 ### Feature images
-
-![Posts with geometric feature images](https://cloud.githubusercontent.com/assets/816965/5142406/19726478-71d6-11e4-8111-94f788b0e44d.png)
 
 Add a feature image by specifying a path to an image in the [front matter](http://jekyllrb.com/docs/frontmatter/) in the form of `feature-img: "img/PATH_TO_IMAGE.png"`.
 
@@ -197,7 +192,7 @@ tags: [sample, markdown, html]
 ---
 ```
 
-A tags listing will be automatically generated using the `tags.html` file provided in Type theme. If you're not using the tags feature it is safe to delete `tags.html`.
+A tags listing will be automatically generated using the `tags.html` file provided in Type on Bleak. If you're not using the tags feature it is safe to delete `tags.html`.
 
 ### Search
 
