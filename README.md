@@ -2,7 +2,7 @@
 
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)]()
 
-![Default Type Theme blog](/Type-on-Bleak.jpg)
+![Default Type Theme blog](/Type-on-Bleak.png)
 
 A free and open-source [Jekyll](https://jekyllrb.com) theme. Great for blogs and easy to customize.
 
