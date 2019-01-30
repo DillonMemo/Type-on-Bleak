@@ -7,7 +7,7 @@
 A free and open-source [Jekyll](https://jekyllrb.com) theme. Great for blogs and easy to customize.
 
 [Demo](https://dillonmemo.github.io/Type-on-Bleak/)
-
+<!--
 ## Usage
 
 1. Fork and clone the [Type on Bleak repo](https://github.com/dillonmemo/type-on-Bleak): `git clone https://github.com/dillonmemo/type-on-Bleak`
@@ -219,6 +219,6 @@ title: "This is a title"
 subtitle: "This is a subtitle"
 ---
 ```
-
+-->
 ## License
 [The MIT License (MIT)](https://github.com/rohanchandra/type-theme/blob/master/LICENSE)
